@@ -98758,13 +98758,13 @@ n.f.yW(A.aMy(null,null,null,B.k,null,B.M,null,A.am("Portfolio is now "+(m.gLF()?
 return A.w($async$$0,r)},
 $S:146}
 A.ays.prototype={
-$0(){A.wA(new A.oF("https://shashank1q.github.io/profolio/"+this.a.a.c))
+$0(){A.wA(new A.oF("https://shashank1q.github.io/profolio/#/"+this.a.a.c))
 var s=this.b.an(t.Pu)
 s.toString
 s.f.yW(B.Ux)},
 $S:0}
 A.ayt.prototype={
-$0(){A.a54(A.dN("https://shashank1q.github.io/profolio/preview/"+this.a.a.c,0,null),B.Kx)},
+$0(){A.a54(A.dN("https://shashank1q.github.io/profolio/#/preview/"+this.a.a.c,0,null),B.Kx)},
 $S:0}
 A.ayu.prototype={
 $1(a){return A.a([B.RF,B.RG],t.BD)},
