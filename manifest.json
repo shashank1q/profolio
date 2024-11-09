@@ -1,6 +1,6 @@
 {
-    "name": "portfolio_maker",
-    "short_name": "portfolio_maker",
+    "name": "profolio",
+    "short_name": "profolio",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

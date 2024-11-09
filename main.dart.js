@@ -99092,7 +99092,7 @@ var $async$$1=A.x(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:s=a===2?2:4
 break
 case 2:p=q.a
-A.ro(new A.mw("https://profolio.live/#/"+p.a.c))
+A.ro(new A.mw("https://profolio.live/"+p.a.c))
 p=p.c.ao(t.Pu)
 p.toString
 p.f.qx(B.Bb)
@@ -99100,7 +99100,7 @@ s=3
 break
 case 4:s=a===3?5:7
 break
-case 5:A.Bj(A.dv("https://profolio.live/#/preview/"+q.a.a.c,0,null),B.pi)
+case 5:A.Bj(A.dv("https://profolio.live/preview/"+q.a.a.c,0,null),B.pi)
 s=6
 break
 case 7:s=a===4?8:10
@@ -99141,13 +99141,13 @@ return A.v($async$$0,r)},
 $S:96}
 A.ayT.prototype={
 $0(){var s=this.a
-A.ro(new A.mw("https://profolio.live/#/"+s.a.c))
+A.ro(new A.mw("https://profolio.live/"+s.a.c))
 s=s.c.ao(t.Pu)
 s.toString
 s.f.qx(B.Bb)},
 $S:0}
 A.ayU.prototype={
-$0(){A.Bj(A.dv("https://profolio.live/#/preview/"+this.a.a.c,0,null),B.pi)},
+$0(){A.Bj(A.dv("https://profolio.live/preview/"+this.a.a.c,0,null),B.pi)},
 $S:0}
 A.ayV.prototype={
 $1(a){return A.a([B.S8,B.S5],t.Lj)},
@@ -100384,7 +100384,7 @@ A.aBR.prototype={
 $0(){return A.aO5(this.a)},
 $S:0}
 A.aBS.prototype={
-$0(){A.Bj(A.dv("https://drive.google.com/file/d/1NWkgXqAnkOGS8JP7yXkTvnm8eG--mF1P/view?usp=sharing",0,null),B.kP)},
+$0(){A.Bj(A.dv("https://github.com/shashank1q/profolio/releases/download/app/profolio.apk",0,null),B.kP)},
 $S:0}
 A.aBU.prototype={
 $1(a){var s=this.a
@@ -104000,8 +104000,8 @@ z0(a,b){return this.a3M(a,b)},
 a3M(a,b){var s=0,r=A.w(t.H),q,p=this,o
 var $async$z0=A.x(function(c,d){if(c===1)return A.t(d,r)
 while(true)switch(s){case 0:o=p.a.h(0,a).b
-o.muted=!(b>0)
-o.volume=b
+o.muted=b===0
+if(b>0)o.volume=b
 q=null
 s=1
 break
