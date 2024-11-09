@@ -99061,7 +99061,7 @@ var $async$$1=A.x(function(b,c){if(b===1)return A.t(c,r)
 while(true)switch(s){case 0:s=a===2?2:4
 break
 case 2:p=q.a
-A.ro(new A.mw("https://profolio.live/"+p.a.c))
+A.ro(new A.mw("https://profolio.live/#/"+p.a.c))
 p=p.c.ao(t.Pu)
 p.toString
 p.f.qx(B.Bb)
@@ -99069,7 +99069,7 @@ s=3
 break
 case 4:s=a===3?5:7
 break
-case 5:A.Bj(A.dD("https://profolio.live/preview/"+q.a.a.c,0,null),B.pi)
+case 5:A.Bj(A.dD("https://profolio.live/#/preview/"+q.a.a.c,0,null),B.pi)
 s=6
 break
 case 7:s=a===4?8:10
@@ -99110,13 +99110,13 @@ return A.v($async$$0,r)},
 $S:96}
 A.ayQ.prototype={
 $0(){var s=this.a
-A.ro(new A.mw("https://profolio.live/"+s.a.c))
+A.ro(new A.mw("https://profolio.live/#/"+s.a.c))
 s=s.c.ao(t.Pu)
 s.toString
 s.f.qx(B.Bb)},
 $S:0}
 A.ayR.prototype={
-$0(){A.Bj(A.dD("https://profolio.live/preview/"+this.a.a.c,0,null),B.pi)},
+$0(){A.Bj(A.dD("https://profolio.live/#/preview/"+this.a.a.c,0,null),B.pi)},
 $S:0}
 A.ayS.prototype={
 $1(a){return A.a([B.S8,B.S5],t.Lj)},
