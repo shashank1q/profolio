@@ -2,16 +2,32 @@
 <html>
 
 <head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
   <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Discover the ultimate Portfolio Maker platform to easily create, customize, and publish professional online portfolios without technical complexity with Profolio. Choose from a variety of modern templates, edit your portfolio with an intuitive interface, and showcase your projects and skills to the world. With built-in privacy controls, users can opt for public or private visibility, and enjoy real-time email notifications for seamless updates. Our platform is built using Flutter for a responsive design, and it’s backed by a robust Spring Boot backend, hosted on AWS EC2 with PostgreSQL. Perfect for designers, developers, students, and professionals looking to build their personal brand online. Start building your digital presence with Profolio, available on both web and Android app.">
-  <meta name="keywords" content="Profolio, online portfolio maker, create portfolio, publish portfolio, portfolio templates, Profolio app, portfolio builder, digital portfolio, personal branding, portfolio website, showcase projects">
+  <meta name="description"
+    content="Discover the ultimate Portfolio Maker platform to easily create, customize, and publish professional online portfolios without technical complexity with Profolio. Choose from a variety of modern templates, edit your portfolio with an intuitive interface, and showcase your projects and skills to the world. With built-in privacy controls, users can opt for public or private visibility, and enjoy real-time email notifications for seamless updates. Our platform is built using Flutter for a responsive design, and it’s backed by a robust Spring Boot backend, hosted on AWS EC2 with PostgreSQL. Perfect for designers, developers, students, and professionals looking to build their personal brand online. Start building your digital presence with Profolio, available on both web and Android app.">
+  <meta name="keywords"
+    content="Profolio, online portfolio maker, create portfolio, publish portfolio, portfolio templates, Profolio app, portfolio builder, digital portfolio, personal branding, portfolio website, showcase projects">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Profolio Team">
   <meta property="og:title" content="Profolio - Create Your Professional Online Portfolio">
-  <meta property="og:description" content="Build and share beautiful portfolios with Profolio. Choose customizable templates and publish your work online with ease. Available on both web and Android.">
+  <meta property="og:description"
+    content="Build and share beautiful portfolios with Profolio. Choose customizable templates and publish your work online with ease. Available on both web and Android.">
   <meta property="og:url" content="https://profolio.live">
   <meta property="og:type" content="website">
 
@@ -24,11 +40,71 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="fav32.png" />
 
-  <title>Profolio</title>
+  <title>profolio</title>
   <link rel="manifest" href="manifest.json">
+  <!--  CSS for loading animation -->
+  <style>
+    body {
+      background-color: #c5b0ff;
+    }
+
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border: 15px solid;
+      border-top: 30px solid #a685ff;
+      border-right: 30px solid #622aff;
+      border-bottom: 30px solid #a685ff;
+      border-left: 30px solid #622aff;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <!-- create a container for loading icon -->
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+  <div style="font-size: 40px; padding-top: 280px; font-weight: 500; font-family: Arial;" class="loading">
+    Please Wait
+  </div>
+  <!-- flutter stuff -->
   <script src="flutter_bootstrap.js" async></script>
 </body>
 
