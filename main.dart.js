@@ -100387,7 +100387,7 @@ A.aBQ.prototype={
 $0(){return A.aO6(this.a)},
 $S:0}
 A.aBR.prototype={
-$0(){A.Bk(A.dD("https://github.com/shashank1q/profolio/releases/download/app/profolio.apk",0,null),B.kR)},
+$0(){A.Bk(A.dD("https://github.com/shashank1q/profolio/releases/download/v1.0.1-release/app-release.apk",0,null),B.kR)},
 $S:0}
 A.aBT.prototype={
 $1(a){var s=this.a
